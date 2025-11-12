@@ -1,7 +1,5 @@
     <?php get_header(); ?>
 
-    <?php if ( have_posts() ) : ?>
-    <?php while ( have_posts() ) : the_post(); ?>
     <main>
       <!-- page-kv -->
       <div class="c-page-kv c-page-kv--consept">
@@ -34,8 +32,6 @@
         </div>
       </div>
       <!-- end consept -->
-      <?php endwhile; ?>
-      <?php endif; ?>
     </main>
 
     <?php get_footer(); ?>
