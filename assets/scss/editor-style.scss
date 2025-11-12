@@ -1,0 +1,10 @@
+@use "foundation";
+@use "global/single-contents" as *;
+
+/*!
+editor-style
+------------------------------
+*/
+@include single-title();
+
+@include single-contents(); // ルート直下で呼び出し

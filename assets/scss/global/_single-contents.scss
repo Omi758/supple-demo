@@ -1,0 +1,91 @@
+@use "breakpoints" as g;
+
+/*!
+page > single > single-contents
+// 記事の装飾
+// 管理画面の装飾(editor-style.scss)でも使用
+------------------------------
+*/
+@mixin single-time() {
+  time {
+    line-height: 1.8;
+  }
+}
+
+@mixin single-title() {
+  h1 {
+    font-size: 22px;
+    margin-top: 8px !important;
+    margin-bottom: 48px !important;
+    line-height: 1.55;
+
+    @include g.mq() {
+      font-size: 26px;
+    }
+  }
+}
+
+@mixin single-contents() {
+  * {
+    line-height: 2;
+  }
+
+  *:first-child {
+    margin-top: 0;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  ul li {
+    list-style-type: disc;
+    margin-left: 24px !important;
+  }
+
+  ol li {
+    list-style-type: decimal;
+    margin-left: 24px !important;
+  }
+
+  a {
+    text-decoration: underline;
+    color: var(--color-link);
+  }
+
+  p {
+    margin: 24px 0;
+  }
+
+  h2 {
+    font-size: 20px !important;
+    margin: 48px 0 24px;
+    @include g.mq() {
+      font-size: 24px !important;
+    }
+  }
+
+  h3 {
+    font-size: 18px !important;
+    margin: 32px 0 24px;
+    @include g.mq() {
+      font-size: 20px !important;
+    }
+  }
+
+  blockquote {
+    background-color: #f3f3f3;
+    padding: 16px;
+    color: #666;
+    border-radius: 12px;
+    margin: 32px auto;
+  }
+
+  blockquote p {
+    margin: 0;
+  }
+}

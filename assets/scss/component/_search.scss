@@ -1,0 +1,39 @@
+@use "../global" as g;
+
+/*!
+component > search
+------------------------------
+*/
+.c-search {
+  margin-bottom: 40px;
+
+  & p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+
+.c-search-form-inner {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.c-search-text input {
+  width: 260px;
+  border: 1px solid var(--color-border-gray);
+  padding: 8px;
+}
+
+.c-search-area-select {
+  border: 1px solid var(--color-border-gray);
+  padding: 8px 24px;
+}
+
+.c-search-button input {
+  background-color: var(--color-bg-gray);
+  font-weight: bold;
+  color: var(--color-font-white);
+  padding: 4px 24px;
+  height: 100%;
+}

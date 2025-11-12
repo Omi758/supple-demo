@@ -1,0 +1,10 @@
+{
+  "name": "supple",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "browser-sync start --proxy http://supple.local --files \"**/*.php\" \"**/*.css\" \"**/*.js\" --no-notify --no-open"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}

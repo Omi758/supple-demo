@@ -1,0 +1,14 @@
+@use "../../global/single-contents" as *;
+
+/*!
+page > single > single
+------------------------------
+*/
+.single-article {
+  @include single-time();
+  @include single-title();
+}
+
+.single-contents {
+  @include single-contents(); // single-contentsのmixinを呼び出す
+}
