@@ -1,6 +1,6 @@
 # 🧩 Cafe Site SUPPLE – Web Coding Demo（架空サイト）
 
-![supple demo-site](assets/img/musha-road_git_screenshot.webp "supple demo-site")
+![supple demo-site](assets/img/supple_git_screenshot.webp "supple demo-site")
 
 ## 🔗 Demo
 
