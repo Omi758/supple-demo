@@ -33,8 +33,6 @@ HelloMentor 課題として制作した **カフェのサービスサイト**で
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" alt="CSS3" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="40" alt="SCSS" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" alt="JavaScript" >
-<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" width="60" alt="GSAP" />
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="40" alt="WordPress" />
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" alt="PHP" />
 </p>
@@ -51,8 +49,7 @@ HelloMentor 課題として制作した **カフェのサービスサイト**で
 
 ### 2. 2 つのカスタム投稿タイプ + タクソノミー
 
-- **menu（メニュー情報）**
-- **shoplist（店舗情報）**
+- カスタム投稿タイプ **menu（メニュー情報）** と **shoplist（店舗情報）** を実装
 - menu には “コーヒータイプ” のタクソノミーを追加し、分類管理
 - 投稿の追加／編集／削除はすべて管理画面から可能
 
@@ -62,7 +59,8 @@ HelloMentor 課題として制作した **カフェのサービスサイト**で
 
 ### 4. その他の基本構築
 
-- editor-style.scss により **投稿画面とフロントの見た目を揃えて編集しやすさを向上**
+- editor-style.scss により **投稿画面とフロントの見た目を揃えて編集しやすさを向上**  
+  管理画面とフロントの表示差異をなくし、クライアントが迷わない編集画面を実現
 - パンくずリスト（Breadcrumb NavXT）
 - 問い合わせフォームには Contact Form 7 を導入
 - EWWW Image Optimizer による画像最適化
