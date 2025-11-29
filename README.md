@@ -22,7 +22,7 @@ HelloMentor 課題として制作した **カフェのサービスサイト**で
 - editor-style.scss で投稿画面とフロントの見た目を統一
 - SEO SIMPLE PACK によるメタ設定
 - 必要なプラグイン導入による CMS の最適化
-- BEM に基づく CSS 設計 + SCSS 運用
+- 保守性を意識した CSS 設計手法 + SCSS 運用
 
 &nbsp;
 
