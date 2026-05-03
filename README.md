@@ -61,10 +61,9 @@ HelloMentor 課題として制作した **カフェのサービスサイト**で
 
 - editor-style.scss により **投稿画面とフロントの見た目を揃えて編集しやすさを向上**
   管理画面とフロントの表示差異をなくし、クライアントが迷わない編集画面を実現
-- パンくずリスト（Breadcrumb NavXT）
-- 問い合わせフォームには Contact Form 7 を導入
 - EWWW Image Optimizer による画像最適化
-- Yoast Duplicate Post によるブログ投稿の複製機能
+- Yoast Duplicate Post 導入し、ブログ投稿の複製機能を実現
+- CloudSecure WP Security によるセキュリティ対策
 - レスポンシブ対応（SP・PC）
 
 &nbsp;
