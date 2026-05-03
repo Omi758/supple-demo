@@ -64,7 +64,6 @@ HelloMentor 課題として制作した **カフェのサービスサイト**で
 - EWWW Image Optimizer による画像最適化
 - Yoast Duplicate Post 導入し、ブログ投稿の複製機能を実現
 - CloudSecure WP Security によるセキュリティ対策
-- レスポンシブ対応（SP・PC）
 
 &nbsp;
 
